@@ -1,0 +1,15 @@
+c:\users\omistaja\source\repos\Älytalo3\Älytalo3\obj\Debug\MainWindow.g.cs
+c:\users\omistaja\source\repos\Älytalo3\Älytalo3\obj\Debug\App.g.cs
+c:\users\omistaja\source\repos\Älytalo3\Älytalo3\obj\Debug\Älytalo3_MarkupCompile.cache
+c:\users\omistaja\source\repos\Älytalo3\Älytalo3\obj\Debug\Älytalo3_MarkupCompile.lref
+C:\Users\Omistaja\source\repos\Älytalo3\Älytalo3\bin\Debug\Älytalo3.exe.config
+C:\Users\Omistaja\source\repos\Älytalo3\Älytalo3\bin\Debug\Älytalo3.exe
+C:\Users\Omistaja\source\repos\Älytalo3\Älytalo3\bin\Debug\Älytalo3.pdb
+C:\Users\Omistaja\source\repos\Älytalo3\Älytalo3\obj\Debug\MainWindow.baml
+C:\Users\Omistaja\source\repos\Älytalo3\Älytalo3\obj\Debug\Älytalo3.g.resources
+C:\Users\Omistaja\source\repos\Älytalo3\Älytalo3\obj\Debug\Älytalo3.Properties.Resources.resources
+C:\Users\Omistaja\source\repos\Älytalo3\Älytalo3\obj\Debug\Älytalo3.csproj.GenerateResource.Cache
+C:\Users\Omistaja\source\repos\Älytalo3\Älytalo3\obj\Debug\Älytalo3.csproj.CoreCompileInputs.cache
+C:\Users\Omistaja\source\repos\Älytalo3\Älytalo3\obj\Debug\Älytalo3.exe
+C:\Users\Omistaja\source\repos\Älytalo3\Älytalo3\obj\Debug\Älytalo3.pdb
+C:\Users\Omistaja\source\repos\Älytalo3\Älytalo3\obj\Debug\Älytalo3.csprojAssemblyReference.cache

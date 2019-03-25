@@ -1,0 +1,43 @@
+﻿<Window x:Class="Älytalo3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Älytalo3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="821.5" ResizeMode="CanResizeWithGrip">
+    <Grid Margin="0,0,3,-1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="95*"/>
+            <ColumnDefinition MinWidth="175" Width="Auto"/>
+            <ColumnDefinition Width="117*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="pois" HorizontalAlignment="Left" Margin="29,214,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" Height="20"/>
+        <Button Content="hämärä" HorizontalAlignment="Left" Margin="29,239,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2" Height="20"/>
+        <Button Content="puolivalot" HorizontalAlignment="Left" Margin="29,264,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3" Height="20"/>
+        <Button Content="kirkas" HorizontalAlignment="Left" Margin="29,289,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_4" Height="20"/>
+        <Button Content="olohuone" HorizontalAlignment="Left" Margin="29,65,0,0" VerticalAlignment="Top" Width="104" Height="23" Click="Button_Click"/>
+        <Button Content="makuuhuone" HorizontalAlignment="Left" Margin="152,65,0,0" VerticalAlignment="Top" Width="123" Height="23"/>
+        <TextBox x:Name="Box1" HorizontalAlignment="Left" Height="44" Margin="29,135,0,0" TextWrapping="Wrap" Text="Olohuoneen valojen kirkkaus" VerticalAlignment="Top" Width="104" IsEnabled="False"/>
+        <TextBlock x:Name="valo1" HorizontalAlignment="Left" Height="37" Margin="55,10,0,0" TextWrapping="Wrap" Text="                 VALOT" VerticalAlignment="Top" Width="174" FontWeight="Bold"/>
+        <TextBox x:Name="Box2" HorizontalAlignment="Left" Height="44" Margin="152,135,0,0" TextWrapping="Wrap" Text="Makuuhuoneen valojen kirkkaus" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Button Content="pois" HorizontalAlignment="Left" Margin="162,214,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_5" Height="20"/>
+        <Button Content="hämärä" HorizontalAlignment="Left" Margin="162,239,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_9" Height="20"/>
+        <Button Content="puolivalot" HorizontalAlignment="Left" Margin="162,264,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_6" Height="20"/>
+        <Button Content="kirkas" HorizontalAlignment="Left" Margin="162,290,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_7" Height="20"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="66,10,0,0" TextWrapping="Wrap" Text="SAUNA" VerticalAlignment="Top" Height="16" Width="52" FontWeight="Bold"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="149,10,0,0" TextWrapping="Wrap" Text="LÄMPÖTILA" VerticalAlignment="Top" Width="79" FontWeight="Bold"/>
+        <TextBox x:Name="Box3" Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="25,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Päällä" Grid.Column="1" HorizontalAlignment="Left" Height="44" Margin="25,135,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_8"/>
+        <Button Content="Pois päältä" Grid.Column="1" HorizontalAlignment="Left" Height="45" Margin="25,214,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_10"/>
+        <TextBox x:Name="Box4" Grid.Column="2" HorizontalAlignment="Left" Height="43" Margin="24,56,0,0" TextWrapping="Wrap" Text="TALON LÄMPÖTILA" VerticalAlignment="Top" Width="129"/>
+        <TextBox x:Name="Box5" Grid.Column="2" HorizontalAlignment="Left" Height="44" Margin="24,135,0,0" TextWrapping="Wrap" Text="TALON TAVOITE&#xD;&#xA;LÄMPÖTILA" VerticalAlignment="Top" Width="129"/>
+        <Button x:Name="Aseta" Content="Aseta" Grid.Column="2" HorizontalAlignment="Left" Margin="169,135,0,0" VerticalAlignment="Top" Width="75" Click="Aseta_Click"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="320" VerticalAlignment="Top" Width="285"/>
+        <Button x:Name="Plus" Content="+" Grid.Column="2" HorizontalAlignment="Left" Margin="249,135,0,0" VerticalAlignment="Top" Width="28" Click="Plus_Click"/>
+        <Button x:Name="Minus" Content="-" Grid.Column="2" HorizontalAlignment="Left" Margin="282,135,0,0" VerticalAlignment="Top" Width="28" RenderTransformOrigin="0.536,0.55" Click="Minus_Click"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" HorizontalAlignment="Left" Height="320" VerticalAlignment="Top" Width="175"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="2" HorizontalAlignment="Left" Height="320" VerticalAlignment="Top" Width="351"/>
+
+    </Grid>
+</Window>
